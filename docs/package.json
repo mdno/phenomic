@@ -10,7 +10,9 @@
     "pretest": "npm run -s showcase-screenshots",
     "test": "npm run -s build",
     "predeploy": "npm run -s test && (npm run -s optim || echo \"optim skipped because of failure\")",
-    "deploy": "./scripts/deploy.sh"
+    "deploy": "./scripts/deploy.sh",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@phenomic/cli": "^1.0.0-alpha.4",
@@ -21,7 +23,8 @@
     "react-google-analytics": "^0.2.0",
     "react-helmet": "^5.0.0",
     "react-primitives": "^0.4.3",
-    "react-router": "^3.0.0"
+    "react-router": "^3.0.0",
+    "snyk": "^1.96.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -48,5 +51,6 @@
       "height": 640
     }
   },
-  "version": "1.0.0-alpha.4"
+  "version": "1.0.0-alpha.4",
+  "snyk": true
 }
