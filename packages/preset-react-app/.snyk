@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - '@phenomic/plugin-renderer-react > socket.io-client > debug':
+        patched: '2018-09-20T23:06:25.224Z'
+    - '@phenomic/plugin-renderer-react > socket.io-client > engine.io-client > debug':
+        patched: '2018-09-20T23:06:25.224Z'
+    - '@phenomic/plugin-renderer-react > socket.io-client > socket.io-parser > debug':
+        patched: '2018-09-20T23:06:25.224Z'
+  'npm:lodash:20180130':
+    - '@phenomic/plugin-transform-markdown > remark-highlights > highlights > first-mate-select-grammar > lodash':
+        patched: '2018-09-20T23:06:25.224Z'
+  'npm:ms:20170412':
+    - '@phenomic/plugin-renderer-react > socket.io-client > debug > ms':
+        patched: '2018-09-20T23:06:25.224Z'
+    - '@phenomic/plugin-renderer-react > socket.io-client > engine.io-client > debug > ms':
+        patched: '2018-09-20T23:06:25.224Z'
+    - '@phenomic/plugin-renderer-react > socket.io-client > socket.io-parser > debug > ms':
+        patched: '2018-09-20T23:06:25.224Z'
