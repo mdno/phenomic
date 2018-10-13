@@ -29,7 +29,7 @@
     "lib"
   ],
   "dependencies": {
-    "debug": "^2.6.0",
+    "debug": "^2.6.9",
     "lodash.flatten": "^4.4.0"
   },
   "peerDependencies": {
