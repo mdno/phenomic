@@ -28,7 +28,7 @@
     "lib"
   ],
   "dependencies": {
-    "debug": "^2.6.0",
+    "debug": "^2.6.9",
     "invariant": "^2.2.2"
   }
 }
