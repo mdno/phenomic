@@ -27,27 +27,33 @@
     "@phenomic/api-client": "^1.0.0-alpha.4",
     "chalk": "^1.1.3",
     "cosmiconfig": "^2.1.1",
-    "debug": "^2.6.0",
-    "express": "^4.14.0",
+    "debug": "^2.6.9",
+    "express": "^4.16.0",
     "find-cache-dir": "^0.1.1",
     "get-port": "^2.1.0",
     "globby": "^6.1.0",
     "isomorphic-fetch": "^2.2.1",
-    "level-sublevel": "^6.6.1",
-    "leveldown": "^1.5.0",
+    "level-sublevel": "^6.6.3",
+    "leveldown": "^1.7.2",
     "levelup": "^1.3.3",
     "log-symbols": "^1.0.2",
     "mkdirp": "^0.5.1",
     "path-to-regexp": "^1.7.0",
     "rimraf": "^2.5.4",
-    "sane": "^1.7.0",
+    "sane": "^2.5.0",
     "simple-json-fetch": "^1.0.1",
-    "socket.io": "^1.7.2",
-    "socket.io-client": "^1.7.2"
+    "socket.io": "^2.0.2",
+    "socket.io-client": "^2.0.2",
+    "snyk": "^1.113.0"
   },
   "engines": {
     "node": ">=4.2.0",
     "npm": ">=3.0.0",
     "yarn": ">=0.16.0"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
