@@ -36,6 +36,12 @@
     "@phenomic/plugin-public-assets": "^1.0.0-alpha.4",
     "@phenomic/plugin-renderer-react": "^1.0.0-alpha.4",
     "@phenomic/plugin-transform-json": "^1.0.0-alpha.4",
-    "@phenomic/plugin-transform-markdown": "^1.0.0-alpha.4"
-  }
+    "@phenomic/plugin-transform-markdown": "^1.0.0-alpha.4",
+    "snyk": "^1.190.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }

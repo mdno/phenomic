@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - '@phenomic/plugin-bundler-webpack > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2019-07-04T08:32:15.485Z'
+    - '@phenomic/plugin-transform-markdown > remark-highlights > lodash':
+        patched: '2019-07-04T08:32:15.485Z'
+    - '@phenomic/plugin-bundler-webpack > @babel/core > lodash':
+        patched: '2019-07-04T08:32:15.485Z'
+    - '@phenomic/plugin-bundler-webpack > @babel/core > @babel/traverse > lodash':
+        patched: '2019-07-04T08:32:15.485Z'
+    - '@phenomic/plugin-bundler-webpack > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2019-07-04T08:32:15.485Z'
+    - '@phenomic/plugin-transform-markdown > remark-highlights > highlights > first-mate-select-grammar > lodash':
+        patched: '2019-07-04T08:32:15.485Z'
+    - '@phenomic/plugin-bundler-webpack > css-loader > lodash':
+        patched: '2019-07-04T08:32:15.485Z'
+    - '@phenomic/plugin-bundler-webpack > @phenomic/babel-preset > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2019-07-04T08:32:15.485Z'
+    - '@phenomic/plugin-bundler-webpack > @phenomic/babel-preset > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2019-07-04T08:32:15.485Z'
+    - '@phenomic/plugin-bundler-webpack > @phenomic/babel-preset > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > lodash':
+        patched: '2019-07-04T08:32:15.485Z'
+    - '@phenomic/plugin-bundler-webpack > @phenomic/babel-preset > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2019-07-04T08:32:15.485Z'
+    - '@phenomic/plugin-bundler-webpack > @phenomic/babel-preset > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2019-07-04T08:32:15.485Z'
