@@ -32,7 +32,7 @@
     "hast-util-sanitize": "^1.1.0",
     "lodash.deburr": "^4.1.0",
     "lodash.kebabcase": "^4.1.1",
-    "remark": "^7.0.0",
+    "remark": "^13.0.0",
     "remark-autolink-headings": "^5.0.0",
     "remark-html": "^6.0.0",
     "remark-react": "^4.0.0",
