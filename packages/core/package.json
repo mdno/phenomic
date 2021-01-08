@@ -42,7 +42,7 @@
     "rimraf": "^2.5.4",
     "sane": "^1.7.0",
     "simple-json-fetch": "^1.0.1",
-    "socket.io": "^1.7.2",
+    "socket.io": "^2.4.0",
     "socket.io-client": "^1.7.2"
   },
   "engines": {
