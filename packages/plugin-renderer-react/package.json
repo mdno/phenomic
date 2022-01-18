@@ -31,9 +31,9 @@
     "@phenomic/api-client": "^1.0.0-alpha.4",
     "chalk": "^1.1.3",
     "debug": "^2.6.0",
-    "isomorphic-fetch": "^2.2.1",
-    "prop-types": "^15.5.8",
-    "react-hot-loader": "^3.0.0-beta.7",
+    "isomorphic-fetch": "^3.0.0",
+    "prop-types": "^15.6.2",
+    "react-hot-loader": "^3.0.0",
     "simple-json-fetch": "^1.0.1",
     "socket.io-client": "^1.7.2",
     "url-join": "^2.0.2"
