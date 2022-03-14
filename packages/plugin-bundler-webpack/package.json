@@ -41,7 +41,7 @@
     "style-loader": "^0.16.1",
     "webpack": "^2.3.0",
     "webpack-dev-middleware": "^1.10.0",
-    "webpack-hot-middleware": "^2.18.0"
+    "webpack-hot-middleware": "^2.25.1"
   },
   "peerDependencies": {
     "@phenomic/core": "^1.0.0-alpha.4"
