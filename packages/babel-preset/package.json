@@ -28,6 +28,6 @@
     "lib"
   ],
   "dependencies": {
-    "babel-preset-react-app": "^1.0.0"
+    "babel-preset-react-app": "^4.0.0"
   }
 }
