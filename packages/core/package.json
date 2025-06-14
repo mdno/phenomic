@@ -31,7 +31,7 @@
     "express": "^4.14.0",
     "find-cache-dir": "^0.1.1",
     "get-port": "^2.1.0",
-    "globby": "^6.1.0",
+    "globby": "^11.0.0",
     "isomorphic-fetch": "^2.2.1",
     "level-sublevel": "^6.6.1",
     "leveldown": "^1.5.0",
@@ -40,7 +40,7 @@
     "mkdirp": "^0.5.1",
     "path-to-regexp": "^1.7.0",
     "rimraf": "^2.5.4",
-    "sane": "^1.7.0",
+    "sane": "^5.0.1",
     "simple-json-fetch": "^1.0.1",
     "socket.io": "^1.7.2",
     "socket.io-client": "^1.7.2"
